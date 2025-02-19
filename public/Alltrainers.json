@@ -1,0 +1,348 @@
+[
+    {
+      "_id": "678fcb5d09e80ccc8d255fe7",
+      "trainerImg": "https://i.ibb.co.com/C93SDms/Sarah-Jones.jpg",
+      "speciality": [
+        "Zumba",
+        "Dance Fitness",
+        "Group Exercise"
+      ],
+      "name": "Sarah Jones",
+      "biography": "Sarah is a high-energy and passionate dance fitness instructor who brings joy and excitement to every class.",
+      "availableSlot": [
+        "Tuesday 6:00 PM - 7:00 PM",
+        "Thursday 8:00 PM - 9:00 PM",
+        "Saturday 11:00 AM - 12:00 PM"
+      ],
+      "experience": "3 Years",
+      "certifications": [
+        "AFAA Group Fitness Instructor",
+        "Zumba Instructor"
+      ],
+      "bookedCount": 100
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fe8",
+      "trainerImg": "https://i.ibb.co.com/Xphwdhb/Mike-Tyson.webp",
+      "speciality": [
+        "Weightlifting",
+        "Strength Training",
+        "Endurance Training"
+      ],
+      "name": "Mike Tyson",
+      "biography": "Mike is a highly experienced boxing coach with a focus on self-defense and overall fitness.",
+      "availableSlot": [
+        "Monday 6:00 PM - 7:00 PM",
+        "Wednesday 6:00 PM - 7:00 PM",
+        "Friday 6:00 PM - 7:00 PM"
+      ],
+      "experience": "20+ Years",
+      "certifications": [
+        "USA Boxing Certified"
+      ],
+      "bookedCount": 75
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fe9",
+      "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg",
+      "speciality": [
+        "Yoga",
+        "Dance Fitness",
+        "Cardio"
+      ],
+      "name": "Emily Davis",
+      "biography": "Emily specializes in guiding women through their fitness journeys before, during, and after pregnancy.",
+      "availableSlot": [
+        "Tuesday 9:00 AM - 10:00 AM",
+        "Thursday 9:00 AM - 10:00 AM",
+        "Saturday 10:00 AM - 11:00 AM"
+      ],
+      "experience": "7 Years",
+      "certifications": [
+        "Prenatal Yoga Certification",
+        "Postnatal Fitness Specialist"
+      ],
+      "bookedCount": 40
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fea",
+      "trainerImg": "https://i.ibb.co.com/1vHLW7z/Robert-Garcia.jpg",
+      "speciality": [
+        "Running",
+        "CrossFit",
+        "Group Exercise"
+      ],
+      "name": "Robert Garcia",
+      "biography": "Robert specializes in helping seniors improve their strength, balance, and overall well-being.",
+      "availableSlot": [
+        "Monday 10:00 AM - 11:00 AM",
+        "Wednesday 10:00 AM - 11:00 AM",
+        "Friday 10:00 AM - 11:00 AM"
+      ],
+      "experience": "12 Years",
+      "certifications": [
+        "Certified Strength and Conditioning Specialist (CSCS)"
+      ],
+      "bookedCount": 35
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255feb",
+      "trainerImg": "https://i.ibb.co.com/PQvs9vs/Jessica-Miller.png",
+      "speciality": [
+        "Swimming",
+        "Aqua Fitness",
+        "Lifeguarding"
+      ],
+      "name": "Jessica Miller",
+      "biography": "Jessica is a certified swim instructor and lifeguard with a passion for helping people of all ages learn to swim and enjoy the water.",
+      "availableSlot": [
+        "Tuesday 4:00 PM - 5:00 PM",
+        "Thursday 4:00 PM - 5:00 PM",
+        "Saturday 2:00 PM - 3:00 PM"
+      ],
+      "experience": "6 Years",
+      "certifications": [
+        "American Red Cross Water Safety Instructor"
+      ],
+      "bookedCount": 55
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fec",
+      "trainerImg": "https://i.ibb.co.com/j3xvZCF/Marco-Rodr.webp",
+      "speciality": [
+        "Yoga",
+        "CrossFit",
+        "Endurance Training"
+      ],
+      "name": "Marco Rodriguez",
+      "biography": "Marco is a highly skilled martial arts instructor who emphasizes self-defense and overall fitness.",
+      "availableSlot": [
+        "Monday 7:00 PM - 8:00 PM",
+        "Wednesday 7:00 PM - 8:00 PM",
+        "Friday 7:00 PM - 8:00 PM"
+      ],
+      "experience": "15 Years",
+      "certifications": [
+        "Black Belt in Taekwondo"
+      ],
+      "bookedCount": 70
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fed",
+      "trainerImg": "https://i.ibb.co.com/862Lnzn/Alex-Smith.png",
+      "speciality": [
+        "Endurance Training",
+        "Group Exercise",
+        "Aqua Fitness"
+      ],
+      "name": "Alex Smith",
+      "biography": "Alex is a certified personal trainer and nutrition coach who helps clients achieve their fitness goals through personalized plans and holistic support.",
+      "availableSlot": [
+        "Monday 1:00 PM - 2:00 PM",
+        "Wednesday 1:00 PM - 2:00 PM",
+        "Friday 1:00 PM - 2:00 PM"
+      ],
+      "experience": "4 Years",
+      "certifications": [
+        "NASM Certified Personal Trainer",
+        "Precision Nutrition Certified"
+      ],
+      "bookedCount": 45
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fee",
+      "trainerImg": "https://i.ibb.co.com/xjygtZH/Maria-Garcia.jpg",
+      "speciality": [
+        "Endurance Training",
+        "Dance Fitness",
+        "Zumba"
+      ],
+      "name": "Maria Garcia",
+      "biography": "Maria is an energetic and motivating group fitness instructor who creates fun and engaging classes for all levels.",
+      "availableSlot": [
+        "Tuesday 5:00 PM - 6:00 PM",
+        "Thursday 5:00 PM - 6:00 PM",
+        "Saturday 1:00 PM - 2:00 PM"
+      ],
+      "experience": "2 Years",
+      "certifications": [
+        "AFAA Group Fitness Instructor",
+        "Zumba Gold Instructor"
+      ],
+      "bookedCount": 90
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255fef",
+      "trainerImg": "https://i.ibb.co.com/T2QN9rz/Christopher-Jones.jpg",
+      "speciality": [
+        "Pilates",
+        "Reformer Pilates",
+        "Mat Pilates"
+      ],
+      "name": "Christopher Jones",
+      "biography": "Christopher is a highly skilled Pilates instructor who specializes in helping clients improve their core strength, flexibility, and posture.",
+      "availableSlot": [
+        "Monday 11:00 AM - 12:00 PM",
+        "Wednesday 11:00 AM - 12:00 PM",
+        "Friday 11:00 AM - 12:00 PM"
+      ],
+      "experience": "6 Years",
+      "certifications": [
+        "Pilates Method Alliance Certified"
+      ],
+      "bookedCount": 60
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255ff0",
+      "trainerImg": "https://i.ibb.co.com/DWfFLVD/Lisa-Rodriguez.jpg",
+      "speciality": [
+        "Weightlifting",
+        "Endurance Training",
+        "Strength Training"
+      ],
+      "name": "Lisa Rodriguez",
+      "biography": "Lisa is a highly competitive powerlifter and experienced strength coach who helps clients build muscle and increase their strength.",
+      "availableSlot": [
+        "Tuesday 3:00 PM - 4:00 PM",
+        "Thursday 3:00 PM - 4:00 PM",
+        "Saturday 1:00 PM - 2:00 PM"
+      ],
+      "experience": "8 Years",
+      "certifications": [
+        "USA Weightlifting Certified Coach"
+      ],
+      "bookedCount": 78
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255ff1",
+      "trainerImg": "https://i.ibb.co.com/zFBhYB1/Mark-Johnson.jpg",
+      "speciality": [
+        "Meditation",
+        "Dance Fitness",
+        "CrossFit"
+      ],
+      "name": "Mark Johnson",
+      "biography": "Mark is a highly energetic and results-oriented trainer specializing in high-intensity workouts and functional fitness training.",
+      "availableSlot": [
+        "Monday 8:00 AM - 9:00 AM",
+        "Wednesday 8:00 AM - 9:00 AM",
+        "Friday 8:00 AM - 9:00 AM"
+      ],
+      "experience": "7 Years",
+      "certifications": [
+        "NASM Certified Personal Trainer",
+        "Kettlebell Certifications"
+      ],
+      "bookedCount": 67
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255ff2",
+      "trainerImg": "https://i.ibb.co.com/g720Sjj/Sarah-Williams.jpg",
+      "speciality": [
+        "Running",
+        "Speed & Agility",
+        "Injury Prevention"
+      ],
+      "name": "Sarah Williams",
+      "biography": "Sarah is a sports performance specialist who helps athletes improve their speed, agility, and power, while also focusing on injury prevention.",
+      "availableSlot": [
+        "Tuesday 2:00 PM - 3:00 PM",
+        "Thursday 2:00 PM - 3:00 PM",
+        "Saturday 11:00 AM - 12:00 PM"
+      ],
+      "experience": "10 Years",
+      "certifications": [
+        "CSCS",
+        "Certified Sports Performance Specialist"
+      ],
+      "bookedCount": 82
+    },
+    {
+      "_id": "678fcb5d09e80ccc8d255ff3",
+      "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg",
+      "speciality": [
+        "Meditation",
+        "Pilates",
+        "Yoga"
+      ],
+      "name": "David Rodriguez",
+      "biography": "David is a certified yoga therapist who integrates mindfulness practices with movement to help clients improve their physical and mental well-being.",
+      "availableSlot": [
+        "Monday 12:00 PM - 1:00 PM",
+        "Wednesday 12:00 PM - 1:00 PM",
+        "Friday 12:00 PM - 1:00 PM"
+      ],
+      "experience": "15 Years",
+      "certifications": [
+        "E-RYT 500",
+        "Certified Yoga Therapist"
+      ],
+      "bookedCount": 95
+    },
+    {
+      "_id": "678fec4409e80ccc8d255ff4",
+      "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg",
+      "speciality": [
+        "Yoga",
+        "Pilates",
+        "Meditation"
+      ],
+      "name": "John Doe",
+      "biography": "John is a certified yoga instructor with over 10 years of experience. He specializes in helping clients find inner peace and improve their flexibility.",
+      "availableSlot": [
+        "Monday 9:00 AM - 10:00 AM",
+        "Wednesday 6:00 PM - 7:00 PM",
+        "Friday 4:00 PM - 5:00 PM"
+      ],
+      "bookedCount": 50,
+      "experience": "10+ years",
+      "certifications": [
+        "RYT-200 Yoga Teacher",
+        "Pilates Matwork Certification"
+      ]
+    },
+    {
+      "_id": "678fec4409e80ccc8d255ff5",
+      "trainerImg": "https://i.ibb.co.com/BBFL4tG/Jane-Smith.jpg",
+      "speciality": [
+        "CrossFit",
+        "Weightlifting",
+        "Strength Training"
+      ],
+      "name": "Jane Smith",
+      "biography": "Jane is a highly motivated and results-oriented trainer with a passion for helping clients achieve their fitness goals.",
+      "availableSlot": [
+        "Tuesday 7:00 AM - 8:00 AM",
+        "Thursday 5:00 PM - 6:00 PM",
+        "Saturday 9:00 AM - 10:00 AM"
+      ],
+      "bookedCount": 80,
+      "experience": "5 years",
+      "certifications": [
+        "CrossFit Level 1 Trainer",
+        "NASM Certified Personal Trainer"
+      ]
+    },
+    {
+      "_id": "678fec4409e80ccc8d255ff6",
+      "trainerImg": "https://i.ibb.co.com/C1w0T3m/DavidLee.webp",
+      "speciality": [
+        "Cardio",
+        "Running",
+        "Endurance Training"
+      ],
+      "name": "David Lee",
+      "biography": "David is a certified running coach with a wealth of experience in helping athletes improve their endurance and performance.",
+      "availableSlot": [
+        "Monday 5:00 PM - 6:00 PM",
+        "Wednesday 7:00 AM - 8:00 AM",
+        "Sunday 10:00 AM - 11:00 AM"
+      ],
+      "bookedCount": 65,
+      "experience": "8 years",
+      "certifications": [
+        "USATF Level 1 Coach",
+        "ACE Certified Personal Trainer"
+      ]
+    }
+  ]

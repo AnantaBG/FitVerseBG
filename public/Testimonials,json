@@ -1,0 +1,51 @@
+[
+  {
+      "_id": 1,
+      "username": "kutta",
+      "review": "Ami amake love kori"
+  },
+  {   "_id": 2,
+      "username": "James_W",
+      "review": "This product is a lifesaver!"
+  },
+  {   "_id": 3,
+      "username": "Amelia_D",
+      "review": "Highly recommend it to anyone looking for..."
+  },
+  {   "_id": 4,
+      "username": "Logan_H",
+      "review": "I'm so glad I found this product."
+  },
+  {   "_id": 5,
+      "username": "Sophia_M",
+      "review": "Love this product! It's perfect for me."
+  },
+  {   "_id": 6,
+      "username": "Christopher_P",
+      "review": "This product is a must-have!"
+  },
+  {   "_id": 7,
+      "username": "Ava_G",
+      "review": "I'm impressed with the attention to detail."
+  },
+  {   "_id": 8,
+      "username": "Elijah_W",
+      "review": "Easy to use and very effective."
+  },
+  {   "_id": 9,
+      "username": "Charlotte_R",
+      "review": "I highly recommend this to anyone."
+  },
+  {   "_id": 10,
+      "username": "Oliver_T",
+      "review": "This product is a game-changer!"
+  },
+  {   "_id": 11,
+      "username": "Isabella_J",
+      "review": "Excellent customer service and fast shipping."
+  },
+  {   "_id": 12,
+      "username": "Noah_P",
+      "review": "High quality and great value for money."
+  }
+]

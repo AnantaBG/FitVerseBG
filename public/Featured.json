@@ -1,0 +1,50 @@
+[
+    {
+      "_id": 1,
+      "title": "Find Your Fit",
+      "description": "Discover a diverse range of fitness classes, from yoga and Zumba to HIIT and strength training.",
+      "icon": "https://i.ibb.co.com/L6nzwVP/Find-Your-Fit-removebg-preview.png"  
+    },
+    {
+      "_id": 2,
+      "title": "Expert Trainers",
+      "description": "Connect with experienced and certified trainers who will guide you on your fitness journey.",
+      "icon": "https://i.ibb.co.com/JtQsMXB/Expert-Trainers-removebg-preview.png"  
+    },
+    {
+      "_id": 3,
+      "title": "Track Your Progress",
+      "description": "Monitor your fitness achievements, set goals, and track your progress towards a healthier you.",
+      "icon": "https://i.ibb.co.com/0nCSft1/Track-Your-Progress-removebg-preview.png"  
+    },
+    {
+      "_id": 4,
+      "title": "Personalized Plans",
+      "description": "Get customized workout routines tailored to your fitness level and goals.",
+      "icon": "https://i.ibb.co.com/KFjJzCp/Personalized-Plans-removebg-preview.png"  
+    },
+    {
+      "_id": 5,
+      "title": "Track Your Nutrition",
+      "description": "Monitor your calorie intake, track your meals, and stay on top of your nutritional goals.",
+      "icon": "https://i.ibb.co.com/dBHv21W/Track-Your-Nutrition-removebg-preview.png"  
+    },
+    {
+      "_id": 6,
+      "title": "Relax & Recover",
+      "description": "Find balance with guided meditation, stretching routines, and relaxation techniques.",
+      "icon": "https://i.ibb.co.com/xHZG1Jr/Relax-Recover-removebg-preview.png"  
+    },
+    {
+      "_id": 7,
+      "title": "Wearable Integration",
+      "description": "Seamlessly connect your fitness tracker to sync your activity data and get a more comprehensive view.",
+      "icon": "https://i.ibb.co.com/mXpF3H9/Wearable-Integration-removebg-preview.png"  
+    },
+    {
+      "_id": 8,
+      "title": "Join the Community",
+      "description": "Connect with like-minded individuals, share your journey, and find motivation and support.",
+      "icon": "https://i.ibb.co.com/tpKg6ty/Join-the-Community-removebg-preview.png"  
+    }
+  ]

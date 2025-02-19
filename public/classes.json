@@ -1,0 +1,428 @@
+[
+    {
+      "className": "Vinyasa Flow Yoga",
+      "subject": ["Yoga"],
+      "effects": "Increased flexibility, strength, and balance. Improved cardiovascular health. Stress reduction.",
+      "img": "https://i.ibb.co.com/RQMN88Z/Vinyasa-Flow-Yoga.jpg",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe9", 
+          "trainerName": "Emily Davis",
+          "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fec", 
+          "trainerName": "Marco Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/j3xvZCF/Marco-Rodr.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Restorative Yoga",
+      "subject": ["Yoga"],
+      "effects": "Deep relaxation, stress reduction, and improved sleep.",
+      "img": "https://i.ibb.co.com/0Z8YnhH/Restorative-Yoga.webp",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe9", 
+          "trainerName": "Emily Davis",
+          "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fec", 
+          "trainerName": "Marco Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/j3xvZCF/Marco-Rodr.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Pilates Mat",
+      "subject": ["Pilates"],
+      "effects": "Core strength, flexibility, and posture improvement.",
+      "img": "https://i.ibb.co.com/5YYVQPx/Pilates-Mat.webp",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fef", 
+          "trainerName": "Christopher Jones",
+          "trainerImg": "https://i.ibb.co.com/T2QN9rz/Christopher-Jones.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Reformer Pilates",
+      "subject": ["Pilates"],
+      "effects": "Increased strength, flexibility, and muscle tone.",
+      "img": "https://i.ibb.co.com/h7h1290/Reformer-Pilates.webp",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fef", 
+          "trainerName": "Christopher Jones",
+          "trainerImg": "https://i.ibb.co.com/T2QN9rz/Christopher-Jones.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Meditation Basics",
+      "subject": ["Meditation"],
+      "effects": "Stress reduction, improved focus and concentration.",
+      "img": "https://i.ibb.co.com/PW5vK1L/Meditation-Basics.webp",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff1", 
+          "trainerName": "Mark Johnson",
+          "trainerImg": "https://i.ibb.co.com/zFBhYB1/Mark-Johnson.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Mindfulness Meditation",
+      "subject": ["Meditation"],
+      "effects": "Increased awareness and emotional regulation.",
+      "img": "https://i.ibb.co.com/hKHS9T4/Mindfulness-Meditation.png",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff1", 
+          "trainerName": "Mark Johnson",
+          "trainerImg": "https://i.ibb.co.com/zFBhYB1/Mark-Johnson.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff3", 
+          "trainerName": "David Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/fYGvWSd/David-Rodriguez.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff4", 
+          "trainerName": "John Doe",
+          "trainerImg": "https://i.ibb.co.com/YyzQdM7/johndoe.jpg"
+        }
+      ]
+    },
+    {
+      "className": "CrossFit Fundamentals",
+      "subject": ["CrossFit"],
+      "effects": "Increased overall fitness, strength, and cardiovascular health.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSfgLhmAcE8cn3Gt5umNUuVxy6USlYIjZZA&s",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff1", 
+          "trainerName": "Mark Johnson",
+          "trainerImg": "https://i.ibb.co.com/zFBhYB1/Mark-Johnson.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff5", 
+          "trainerName": "Jane Smith",
+          "trainerImg": "https://i.ibb.co.com/BBFL4tG/Jane-Smith.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fea", 
+          "trainerName": "Robert Garcia",
+          "trainerImg": "https://i.ibb.co.com/1vHLW7z/Robert-Garcia.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fec", 
+          "trainerName": "Marco Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/j3xvZCF/Marco-Rodr.webp"
+        }
+      ]
+    },
+    {
+      "className": "Weightlifting Basics",
+      "subject": ["Weightlifting"],
+      "effects": "Increased muscle mass, strength, and bone density.",
+      "img": "https://www.live-production.tv/sites/default/files/styles/original_image_with_copyright/public/Weightlifting_Basics.JPG?itok=57foGZj0",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe8", 
+          "trainerName": "Mike Tyson",
+          "trainerImg": "https://i.ibb.co.com/Xphwdhb/Mike-Tyson.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff0", 
+          "trainerName": "Lisa Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/DWfFLVD/Lisa-Rodriguez.jpg"
+        },
+        {
+            "trainerId": "678fec4409e80ccc8d255ff5", 
+            "trainerName": "Jane Smith",
+            "trainerImg": "https://i.ibb.co.com/BBFL4tG/Jane-Smith.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Strength Training Circuit",
+      "subject": ["Strength Training"],
+      "effects": "Improved muscle tone, strength, and power.",
+      "img": "https://atlasbars.com/cdn/shop/articles/ehVwXFHs3NyqeUuJwlCnGnifTdMB6KWWBJhYUh4DtqmjHbGiA-out-0.png?v=1686145989",
+      "trainers": [
+        {
+            "trainerId": "678fec4409e80ccc8d255ff5", 
+            "trainerName": "Jane Smith",
+            "trainerImg": "https://i.ibb.co.com/BBFL4tG/Jane-Smith.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe8", 
+          "trainerName": "Mike Tyson",
+          "trainerImg": "https://i.ibb.co.com/Xphwdhb/Mike-Tyson.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff0", 
+          "trainerName": "Lisa Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/DWfFLVD/Lisa-Rodriguez.jpg"
+        }
+        
+      ]
+    },
+    {
+      "className": "HIIT Cardio",
+      "subject": ["Cardio"],
+      "effects": "Improved cardiovascular health, calorie burning, and endurance.",
+      "img": "https://hiitacademy.com/wp-content/uploads/2015/03/hiit_workout_8-791x1024.jpg",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe9", 
+          "trainerName": "Emily Davis",
+          "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff6", 
+          "trainerName": "David Lee",
+          "trainerImg": "https://i.ibb.co.com/C1w0T3m/DavidLee.webp"
+        }
+      ]
+    },
+    {
+      "className": "Indoor Cycling",
+      "subject": ["Cardio"],
+      "effects": "Improved cardiovascular fitness and lower body strength.",
+      "img": "https://ride.shimano.com/cdn/shop/articles/7-Tips-to-help-you-get-started-with-indoor-cycling-thumbnail.jpg?v=1616085829",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe9", 
+          "trainerName": "Emily Davis",
+          "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff6", 
+          "trainerName": "David Lee",
+          "trainerImg": "https://i.ibb.co.com/C1w0T3m/DavidLee.webp"
+        }
+      ]
+    },
+    {
+      "className": "Group Running",
+      "subject": ["Running"],
+      "effects": "Improved cardiovascular health, endurance, and mental well-being.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ17Yq4fkYWzjo-J249hSPzViRpsE7SRjfA&s",
+      "trainers": [
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fea", 
+          "trainerName": "Robert Garcia",
+          "trainerImg": "https://i.ibb.co.com/1vHLW7z/Robert-Garcia.jpg"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff6", 
+          "trainerName": "David Lee",
+          "trainerImg": "https://i.ibb.co.com/C1w0T3m/DavidLee.webp"
+        }
+      ]
+    },
+    {
+      "className": "Endurance Training",
+      "subject": ["Endurance Training"],
+      "effects": "Increased stamina, endurance, and cardiovascular fitness.",
+      "img": "https://www.amaven.co.uk/files/images/Endurance.png",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fe8", 
+            "trainerName": "Mike Tyson",
+            "trainerImg": "https://i.ibb.co.com/Xphwdhb/Mike-Tyson.webp"
+          },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fec", 
+          "trainerName": "Marco Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/j3xvZCF/Marco-Rodr.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fed", 
+          "trainerName": "Alex Smith",
+          "trainerImg": "https://i.ibb.co.com/862Lnzn/Alex-Smith.png"
+        },
+        {
+          "trainerId": "678fec4409e80ccc8d255ff6", 
+          "trainerName": "David Lee",
+          "trainerImg": "https://i.ibb.co.com/C1w0T3m/DavidLee.webp"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255ff0", 
+          "trainerName": "Lisa Rodriguez",
+          "trainerImg": "https://i.ibb.co.com/DWfFLVD/Lisa-Rodriguez.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Zumba Gold",
+      "subject": ["Zumba"],
+      "effects": "Fun and energetic workout, improved cardiovascular health and mood.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIcVMR_xgfhA8GgR8rRBKbq-Jf8kyVGmEgQ&s",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fee", 
+            "trainerName": "Maria Garcia",
+            "trainerImg": "https://i.ibb.co.com/xjygtZH/Maria-Garcia.jpg"
+          },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe7", 
+          "trainerName": "Sarah Jones",
+          "trainerImg": "https://i.ibb.co.com/C93SDms/Sarah-Jones.jpg"
+        }
+    ]
+
+    },
+    {
+      "className": "Hip Hop Dance Fitness",
+      "subject": ["Dance Fitness"],
+      "effects": "Improved coordination, agility, and cardiovascular health.",
+      "img": "https://i.ytimg.com/vi/SJ6f2TnHZBc/maxresdefault.jpg",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fe9", 
+            "trainerName": "Emily Davis",
+            "trainerImg": "https://i.ibb.co.com/vqNbrsW/Emily-Davis.jpg"
+        },
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fee", 
+            "trainerName": "Maria Garcia",
+            "trainerImg": "https://i.ibb.co.com/xjygtZH/Maria-Garcia.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe7", 
+          "trainerName": "Sarah Jones",
+          "trainerImg": "https://i.ibb.co.com/C93SDms/Sarah-Jones.jpg"
+        },
+        {
+            "trainerId": "678fcb5d09e80ccc8d255ff1", 
+            "trainerName": "Mark Johnson",
+            "trainerImg": "https://i.ibb.co.com/zFBhYB1/Mark-Johnson.jpg"
+        }
+    ]
+
+    },
+    {
+      "className": "Group Exercise Circuit",
+      "subject": ["Group Exercise"],
+      "effects": "Variety of exercises for a full-body workout, improved cardiovascular health and strength.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtpvtiWU_mhe35-YA-819y_UOfwHCldA_pQ&s",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fed", 
+            "trainerName": "Alex Smith",
+            "trainerImg": "https://i.ibb.co.com/862Lnzn/Alex-Smith.png"
+        },
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fea", 
+            "trainerName": "Robert Garcia",
+            "trainerImg": "https://i.ibb.co.com/1vHLW7z/Robert-Garcia.jpg"
+        },
+        {
+          "trainerId": "678fcb5d09e80ccc8d255fe7", 
+          "trainerName": "Sarah Jones",
+          "trainerImg": "https://i.ibb.co.com/C93SDms/Sarah-Jones.jpg"
+        }
+    ]
+    },
+    {
+      "className": "Beginner Swimming",
+      "subject": ["Swimming"],
+      "effects": "Improved cardiovascular health, strength, and coordination.",
+      "img": "https://pacificswim.com/wp-content/uploads/2019/04/Novice-Free-1024x602.jpg",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255feb", 
+            "trainerName": "Jessica Miller",
+            "trainerImg": "https://i.ibb.co.com/PQvs9vs/Jessica-Miller.png"
+        }
+    ]
+    },
+    {
+      "className": "Aqua Aerobics",
+      "subject": ["Aqua Fitness"],
+      "effects": "Low-impact workout, improved cardiovascular health and strength.",
+      "img": "https://12oaks.net/wp-content/uploads/2024/01/Group-of-seniors-having-an-exercise-with-dumbbels-during-water-aerobics-class-Adobe-Stock-Featured-Image-1.jpeg",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255feb", 
+            "trainerName": "Jessica Miller",
+            "trainerImg": "https://i.ibb.co.com/PQvs9vs/Jessica-Miller.png"
+        },
+        {
+            "trainerId": "678fcb5d09e80ccc8d255fed", 
+            "trainerName": "Alex Smith",
+            "trainerImg": "https://i.ibb.co.com/862Lnzn/Alex-Smith.png"
+        }
+
+    ]
+    },
+    {
+      "className": "Lifeguard Training",
+      "subject": ["Lifeguarding"],
+      "effects": "Learn lifesaving skills and water safety.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDERaVVqSiNFsa5ggZgCQPo5dWYSKJ_CvUfg&s",
+      "trainers": [
+        {
+            "trainerId": "678fcb5d09e80ccc8d255feb", 
+            "trainerName": "Jessica Miller",
+            "trainerImg": "https://i.ibb.co.com/PQvs9vs/Jessica-Miller.png"
+        }
+    ]
+    }
+  ]
