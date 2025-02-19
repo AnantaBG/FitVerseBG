@@ -7,8 +7,8 @@ const About = () => {
             <Reveal right>
             <div className=" flex justify-end ">
             <div className="lg:w-96 w-48">
-                <h1 className="md:text-3xl text-blue-800 text-2xl font-bold font-mono">The FitVerse Journey</h1>
-                <p className="lg:text-2xl mr-3  opacity-50">At FitVerse, we believe that fitness is more than just exercise; it's a journey of self-discovery and personal growth. We're here to support you every step of the way, providing access to expert trainers, inspiring classes, and a supportive community to help you reach your full potential.</p>
+                <h1 className="md:text-3xl text-blue-800 text-2xl font-extrabold font-serif">The FitVerse Journey</h1>
+                <p className="lg:text-2xl mr-3 mt-5 opacity-50">At FitVerse, we believe that fitness is more than just exercise; it's a journey of self-discovery and personal growth. We're here to support you every step of the way, providing access to expert trainers, inspiring classes, and a supportive community to help you reach your full potential.</p>
 
             </div>
             

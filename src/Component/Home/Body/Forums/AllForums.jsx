@@ -19,7 +19,7 @@ const AllForums = () => {
       }, []);
       console.log(data)
     return (
-        <div className="my-20">
+        <div className="my-20 w-11/12 mx-auto">
           <Helmet>
                 <title>Fitverse || All Forums</title>
       </Helmet>
