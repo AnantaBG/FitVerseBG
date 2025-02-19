@@ -9,11 +9,11 @@ const UserProfile = () => {
     // const date = new Date(user.metadata.lastSignInTime)
     // console.log(date)
     return (
-        <div className="flex my-20 justify-center mx-auto">
+        <div className="flex my-20 w-11/12 justify-center mx-auto">
           <Helmet>
                 <title>Your Profile</title>
       </Helmet>
-      <Card className="md:min-w-[600px] max-h-[400px] ">
+      <Card className="md:min-w-fit max-h-fit ">
       <div className="flex justify-end px-4 pt-4">
 
       </div>

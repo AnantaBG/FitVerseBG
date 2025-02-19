@@ -42,11 +42,11 @@ const AddForums = () => {
               })
             };
     return (
-        <div className="my-0 flex mx-auto max-h-[420px]">
+        <div className="mt-20 flex mx-auto ">
             <Helmet>
                 <title>Dashboard || Add Forum</title>
       </Helmet>
-            <Card>
+            <Card className="mx-auto flex justify-center">
             <h2 className="text-3xl flex justify-center font-bold mb-4 font-mono">Write New Forum</h2>
 
             <form onSubmit={handleSubmit} className="grid max-w-full  grid-cols-2 gap-4">

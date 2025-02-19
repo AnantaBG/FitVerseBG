@@ -38,6 +38,10 @@ else{
             isAdmin &&
             (
             <div className="overflow-auto">
+              <Sidebar.Item icon={BsPerson}>
+            <Link to="profile">
+            My Profile</Link>
+          </Sidebar.Item>
             <Sidebar.Item href="/dashboard/newslsub" icon={BiMessageX}>
             Newsletter subscribers
           </Sidebar.Item>
@@ -63,6 +67,10 @@ else{
             isTrainer && 
             (
             <div>
+              <Sidebar.Item icon={BsPerson}>
+            <Link to="profile">
+            My Profile</Link>
+          </Sidebar.Item>
             <Sidebar.Item href="/dashboard/manageslot" icon={FcManager}>
             Manage Slots
             </Sidebar.Item>

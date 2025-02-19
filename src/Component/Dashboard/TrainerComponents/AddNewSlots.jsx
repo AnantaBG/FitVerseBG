@@ -54,12 +54,12 @@ const AddNewSlots = () => {
     }
   };
     return (
-        <div>
+        <div className='mt-20 w-11/12'>
             <Helmet>
                 <title>Dashboard || Add Slot</title>
       </Helmet>
       <h2 className="text-2xl flex justify-center font-bold mb-4 font-mono uppercase">Add New Slot</h2>
-      <div className='flex gap-4'>
+      <div className='mx-auto flex justify-center gap-4'>
       <TextInput 
         type="text" 
         placeholder="Enter new slot" 

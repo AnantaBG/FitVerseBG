@@ -48,16 +48,16 @@ const ManageSlot = () => {
   };
 
   return (
-    <div>
+    <div className='w-11/12 mt-20 mx-auto'>
         <Helmet>
                 <title>Dashboard || Manage Slot</title>
       </Helmet>
       <h2 className="text-2xl flex justify-center font-bold mb-4 font-mono uppercase">All available Slot</h2>
       {aTrainer ? (
-        <Card>
+        <Card className='sm:max-w-sm md:max-w-md lg:max-w-xl max-w-xs mx-auto'>
           {aTrainer.availableSlot?.map((slot, index) => (
-            <div className='flex' key={index}>
-<Button className='flex max-w-32 justify-between mx-auto'>
+            <div className='flex ' key={index}>
+<Button className='flex w-8/12 text-center justify-between mx-auto'>
               {slot} 
             </Button>
             <button onClick={() => handleSlotDelete(slot)}><FaRegTrashAlt></FaRegTrashAlt></button>
