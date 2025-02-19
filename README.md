@@ -56,7 +56,7 @@
   - **Password:** AnantaTrainer00@  
 - **GitHub Repositories:**  
    - [Main Repository](https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-AnantaBG)  
-   - [Personal Repository](https://github.com/AnantaBG/FitVerse)
+   - [Personal Repository](https://github.com/AnantaBG/FitVerseBG)
 
 ## 🚫 Limitations  
 
