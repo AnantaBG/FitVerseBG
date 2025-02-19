@@ -1,15 +1,21 @@
 import axios from "axios";
 import { Card } from "flowbite-react";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
+import { AuthC } from "../../../Provider/AuthProviderx";
+import Loading from "../../../Provider/Loading";
 
 const AllClasses = () => {
+  const { loading } = useContext(AuthC);
+  if (loading) {
+      return <Loading></Loading>;
+  }
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredData, setFilteredData] = useState([]);
-
+  
   useEffect(() => {
     const fetchData = async () => {
       try {

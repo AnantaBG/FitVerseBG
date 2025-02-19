@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 a.active{
-  background: linear-gradient(to right, rgb(229, 134, 134), blue);
-  border-radius:16%;
   color: #fff;
+}
+
+
+nav a.active{
+  border-radius:1rem;
+  color:rgb(0, 255, 8);
+}
+
+nav a:hover{
+  color: rgba(243, 6, 6, 0.6);
 }

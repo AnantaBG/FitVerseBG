@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 const Membership = () => {
     return (
-        <div className="my-5 font-mono flex justify-center">
+        <div className="my-5 w-11/12 mx-auto font-mono flex justify-center">
           <Helmet>
                 <title>Know More || Membership</title>
             </Helmet>

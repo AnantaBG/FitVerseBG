@@ -51,7 +51,7 @@ const TrainerBooked = () => {
         return <Loading></Loading>;
     }
     return (
-        <div className="my-20 mx-auto">
+        <div className="my-20 w-11/12 mx-auto">
             <h2 className="text-3xl my-5 text-center font-bold font-mono uppercase">Booked Trainer By {user?.displayName }</h2>
             <Helmet>
                 <title>Booked Trainer By {user?.displayName }</title>
@@ -60,7 +60,7 @@ const TrainerBooked = () => {
             {booking?.map((feat) => (
                 <div key={feat._id}>
 
-                <Card className="max-w-sm flex flex-col justify-center mx-auto">
+                <Card className="sm:max-w-sm md:max-w-md lg:max-w-xl max-w-xs flex flex-col justify-center mx-auto">
                     <div className="mb-4 flex items-center justify-between">
                     </div>
                     <div className="flow-root">

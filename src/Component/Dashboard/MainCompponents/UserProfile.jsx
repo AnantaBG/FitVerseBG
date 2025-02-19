@@ -9,7 +9,7 @@ const UserProfile = () => {
     // const date = new Date(user.metadata.lastSignInTime)
     // console.log(date)
     return (
-        <div className="flex mt-20 mx-auto">
+        <div className="flex my-20 justify-center mx-auto">
           <Helmet>
                 <title>Your Profile</title>
       </Helmet>
@@ -29,10 +29,6 @@ const UserProfile = () => {
         <span className="text-sm text-gray-500 dark:text-gray-400">{user.email}</span>
         <div className="mt-5">
         <p>Last Logged in on:<span className="text-sm text-gray-500 dark:text-gray-400">{user.metadata.lastSignInTime}</span></p>
-        </div>
-        
-        <div className="mt-4 flex space-x-3 lg:mt-6">
-        
         </div>
       </div>
       </Card>

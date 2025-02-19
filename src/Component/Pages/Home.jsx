@@ -7,8 +7,15 @@ import Testimonials from "../Home/Body/Testimonials";
 import TopTrainer from "../Home/Body/TopTrainer";
 import Banner from "../Home/Header/Banner";
 import Featured from "../Home/Header/Featured";
+import { useContext } from "react";
+import { AuthC } from "../../Provider/AuthProviderx";
+import Loading from "../../Provider/Loading";
 
 const Home = () => {
+    const { loading } = useContext(AuthC);
+    if (loading) {
+        return <Loading></Loading>;
+    }
     return (
         <div className="w-11/12 mx-auto mt-5">
             <Helmet>

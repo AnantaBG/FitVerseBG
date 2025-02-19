@@ -69,7 +69,7 @@ const handleSubmit = (event) => {
         };
     
     return (
-        <div className="my-5">
+        <div className="my-5 w-11/12 mx-auto">
             <Helmet>
                 <title>Fitverse || Be A Trainer</title>
       </Helmet>

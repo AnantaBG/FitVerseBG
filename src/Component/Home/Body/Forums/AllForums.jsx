@@ -1,9 +1,15 @@
 import axios from "axios";
 import { Card } from "flowbite-react";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { AuthC } from "../../../../Provider/AuthProviderx";
+import Loading from "../../../../Provider/Loading";
 const AllForums = () => {
+  const { loading } = useContext(AuthC);
+  if (loading) {
+      return <Loading></Loading>;
+  }
     const [data, setData] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
@@ -17,7 +23,6 @@ const AllForums = () => {
     
         fetchData();
       }, []);
-      console.log(data)
     return (
         <div className="my-20 w-11/12 mx-auto">
           <Helmet>

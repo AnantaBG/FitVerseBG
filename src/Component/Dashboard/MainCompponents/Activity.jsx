@@ -24,7 +24,7 @@ const Activity = () => {
         
                                 
 
-            <div className="overflow-x-auto mt-3">
+            <div className="overflow-x-auto sm:max-w-sm md:max-w-md mx-auto lg:max-w-xl max-w-xs mt-20">
             <Helmet>
                 <title>Dashboard || Activity</title>
       </Helmet>

@@ -8,13 +8,13 @@ import { FaBalanceScale } from "react-icons/fa";
 import { FcAddColumn, FcAddDatabase, FcManager } from "react-icons/fc";
 import UserD from "../../Pages/Shared/UserD";
 import { Helmet } from "react-helmet";
+import DashBar from "../DashBar";
 
 const Dashboard = () => {
   const [auser] = UserD();
   const userR = auser?.map(item => item.role)
   const isAdmin = userR?.includes('admin'); 
   const isTrainer = userR?.includes('trainer'); 
-console.log(auser)
 
 if (isAdmin) {
   console.log("User has admin role.");
@@ -22,11 +22,11 @@ if (isAdmin) {
   console.log("User have trainer role.");
 }
 else{
-  console.log("putki mara")
+  console.log("user")
 }
 
     return (
-        <div className="flex max-w-full">
+        <div className="flex">
           <Helmet>
                 <title>Dashboard</title>
       </Helmet>
@@ -114,7 +114,12 @@ else{
       </Sidebar.Items>
     </Sidebar>
         </div>
-        <Outlet></Outlet>
+        <div className="flex flex-col mx-auto justify-center lg:w-full max-w-screen">
+        <DashBar></DashBar>
+        <div className="flex-grow">
+        <Outlet />
+    </div>
+        </div>
         </div>
     );
 };
