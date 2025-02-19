@@ -23,12 +23,10 @@ const AddClass = () => {
                 
             }
                 
-                console.log(newClass)
             axiosPublic.post('/newclass', newClass)
               .then(res =>
               {
               if(res.data.insertedId){
-              console.log(res.data)
               Swal.fire({
                   icon: 'success',
                   title: 'Wow!',

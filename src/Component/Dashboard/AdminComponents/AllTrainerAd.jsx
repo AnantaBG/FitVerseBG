@@ -29,9 +29,9 @@ const AllTrainerAd = () => {
                           title: 'Success!',
                           text: 'Removed As A Trainer Successfully',
                         }); 
-            // Update client-side data after successful server-side deletion
+
             setData((prevData) => prevData.filter((trainer) => trainer._id !== trainerId)); 
-            console.log("Trainer deleted successfully");
+            
           } else {
             console.error("Error deleting trainer:", response.data);
           }

@@ -52,12 +52,10 @@ const handleSubmit = (event) => {
             email
         }
             
-            console.log(Trainer)
         axiosPublic.post('/newtrainer', Trainer)
           .then(res =>
           {
           if(res.data.insertedId){
-          console.log(res.data)
           Swal.fire({
               icon: 'success',
               title: 'Wow!',

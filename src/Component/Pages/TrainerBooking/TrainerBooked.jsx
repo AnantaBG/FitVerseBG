@@ -26,7 +26,6 @@ const TrainerBooked = () => {
     .then(res =>
     {
     if(res.data.insertedId){
-    console.log(res.data)
     Swal.fire({
         icon: 'success',
         title: 'Awesome!',

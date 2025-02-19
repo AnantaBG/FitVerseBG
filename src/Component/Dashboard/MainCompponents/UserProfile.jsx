@@ -5,9 +5,7 @@ import { Helmet } from "react-helmet";
 
 const UserProfile = () => {
     const {user} = useContext(AuthC);
-    console.log(user);
-    // const date = new Date(user.metadata.lastSignInTime)
-    // console.log(date)
+
     return (
         <div className="flex my-20 w-11/12 justify-center mx-auto">
           <Helmet>

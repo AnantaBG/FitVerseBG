@@ -7,7 +7,6 @@ import { AuthC } from "../../Provider/AuthProviderx";
 import { Helmet } from "react-helmet";
 const AddForums = () => {
     const {user} = useContext(AuthC);
-    console.log(user)
     const axiosPublic = UseAxiosPublic();
     const navigate = useNavigate();
     const handleSubmit = (event) => {
@@ -26,12 +25,10 @@ const AddForums = () => {
                 
             }
                 
-                console.log(newForum)
             axiosPublic.post('/newforum', newForum)
               .then(res =>
               {
               if(res.data.insertedId){
-              console.log(res.data)
               Swal.fire({
                   icon: 'success',
                   title: 'Wow!',

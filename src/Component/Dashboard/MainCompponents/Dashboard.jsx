@@ -62,7 +62,7 @@ const Dashboard = () => {
 
                             {isTrainer && (
                                 <div>
-                                  <Sidebar.Item href="/dashboard/overview" icon={BsMenuApp} className={isActive("/dashboard/overview") ? "text-green-500 bg-blue-100" : ""}>
+                                  <Sidebar.Item href="/dashboard/overview" icon={RiAppsLine} className={isActive("/dashboard/overview") ? "text-green-500 bg-blue-100" : ""}>
                                         Dashboard
                                     </Sidebar.Item>
                                     <Sidebar.Item href="profile" icon={BsPerson} className={isActive("/dashboard/profile") ? "text-green-500 bg-blue-100" : ""}>
@@ -82,7 +82,7 @@ const Dashboard = () => {
 
                             {!isAdmin && !isTrainer && (
                                 <div>
-                                  <Sidebar.Item href="/dashboard/overview" icon={BsMenuApp} className={isActive("/dashboard/overview") ? "text-green-500 bg-blue-100" : ""}>
+                                  <Sidebar.Item href="/dashboard/overview" icon={RiAppsLine} className={isActive("/dashboard/overview") ? "text-green-500 bg-blue-100" : ""}>
                                         Dashboard
                                     </Sidebar.Item>
                                     <Sidebar.Item href="profile" icon={BsPerson} className={isActive("/dashboard/profile") ? "text-green-500 bg-blue-100" : ""}>

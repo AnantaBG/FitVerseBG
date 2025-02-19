@@ -49,7 +49,6 @@ const [showPassword, setShowPassword] = useState(false);
           axiosPublic.post('/users', userInfo)
               .then(res =>
               {
-                console.log(res)
                 if(res.data.insertedId){
                   Swal.fire({
                               icon: 'success',

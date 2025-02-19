@@ -24,13 +24,10 @@ const CheckOutForm = () => {
         axiosSecure.post('/create-payment-intent', {price: totalPrice})
         .then(
             res => {
-                console.log(res.data.clientSecret)
                 setClientSecret(res.data.clientSecret)
             }
         )
-        console.log(totalPrice)
     }, [axiosSecure, totalPrice]);
-    console.log(totalPBooked, totalSBooked)
 
     const submit = async (e) => {
         
@@ -52,7 +49,6 @@ const CheckOutForm = () => {
             seterror(error.message)
         }
         else{
-            console.log(paymentMethod)
             seterror('')
         }
 
@@ -92,7 +88,6 @@ const CheckOutForm = () => {
 
                     }
                     const res = await axiosSecure.post('/paymenthistory', PayHistory)
-                    console.log(res)
                 }
             }
     } 

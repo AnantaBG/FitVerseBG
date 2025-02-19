@@ -44,8 +44,7 @@ const TrainerDetails = () => {
     { value: 50, label: 'Standard Membership' },
     { value: 100, label: 'Premium Membership' }
   ]
-  // console.log(availablePakage)
-  // console.log(options)
+
 
 
   const handleBookedTrainer = async (ev) => {
@@ -59,7 +58,6 @@ const TrainerDetails = () => {
     const UName = form.UName.value;
     const email = form.UEmail.value;
     const BookedTrainer = {Name, UName, email, Package, Slot, Specialty}
-    console.log(BookedTrainer)
     try {
       const response = await fetch(`https://fit-verse-server-kappa.vercel.app/BookedTrainer`, {
         method: 'POST',

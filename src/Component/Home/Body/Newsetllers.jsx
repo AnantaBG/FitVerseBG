@@ -15,12 +15,10 @@ const Newsetllers = () => {
               email: event.target.email.value,
               message
             };
-            console.log(Newsetllers)
             axiosPublic.post('/newsletters', Newsetllers)
           .then(res =>
           {
           if(res.data.insertedId){
-          console.log(res.data)
           Swal.fire({
               icon: 'success',
               title: 'Awesome!',
