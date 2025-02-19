@@ -21,21 +21,21 @@ const PopularClasses = () => {
     return (
         <div className="my-20">
             <h2 className="mb-5 text-6xl text-center font-bold font-mono">Our Popular Classes</h2>
-                    <div className=" grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                    <div className=" grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                     {data?.map((feat) => (
                 <div key={feat?._id}>
                     <Card
-                    className=" min-h-[440px] max-h-[440px]"
+                    className=" min-h-[480px] max-h-[480px]"
                     imgAlt={feat?.className}
                     >
-                        <img src={feat.img}alt={feat?.className} className="md:max-h-52 max-h-52 mx-auto md:mx-0  md:max-w-80 max-w-60 " />
+                        <img src={feat.img}alt={feat?.className} className=" min-w-60 min-h-52 mx-auto md:mx-0 max-h-52 " />
                     <h5 className="text-2xl font-bold font-mono tracking-tight text-gray-900 dark:text-white">
                         {feat?.className}
                     </h5>
                     <p className="font-normal text-gray-700 dark:text-gray-400">
                         {feat?.effects}
                     </p>
-                    <p className="flex gap-1 justify-center">
+                    <div className="flex gap-1 justify-center">
                     
                     {feat?.trainers?.map((trainer) => (
                       <span className="flex" key={trainer?.trainerId}>
@@ -51,7 +51,7 @@ const PopularClasses = () => {
                         
                     </span>
                     ))}
-                  </p>
+                  </div>
 
                     </Card>
                     

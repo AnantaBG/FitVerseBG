@@ -92,7 +92,7 @@ const navigate = useNavigate();
     })
   }
     return (
-<div className="my-10">
+<div className="my-10 w-11/12 mx-auto">
 <div>
             <Helmet>
                 <title>Register New Account</title>

@@ -27,6 +27,7 @@ import AddClass from "../Dashboard/AdminComponents/AddClass";
 import AddForums from "../Dashboard/AddForums";
 import ManageSlot from "../Dashboard/TrainerComponents/ManageSlot";
 import AddNewSlots from "../Dashboard/TrainerComponents/AddNewSlots";
+import DashboardOverview from "../Dashboard/MainCompponents/Dashview";
 
 
  export const router = createBrowserRouter([
@@ -104,6 +105,10 @@ import AddNewSlots from "../Dashboard/TrainerComponents/AddNewSlots";
         {
           path: 'bookedTrainer/payment',
           element: <PrivateRoute><BookingPayment></BookingPayment></PrivateRoute>
+        },
+        {
+          path: 'overview',
+          element: <PrivateRoute><DashboardOverview></DashboardOverview></PrivateRoute>
         },
         // Admin
         {

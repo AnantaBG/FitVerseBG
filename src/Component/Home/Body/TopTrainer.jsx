@@ -26,7 +26,7 @@ const TopTrainer = () => {
                 <div key={feat._id}>
                     <Link to={`/trainer-details/${feat._id}`}>
                     <Card
-                    className="max-w-md"
+                    className="max-w-md h-[400px]"
                     renderImage={() => <img width={200} height={200} className="mx-auto rounded-full min-h-48 max-h-48" src={feat.trainerImg} alt="image 1" />}
                     >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

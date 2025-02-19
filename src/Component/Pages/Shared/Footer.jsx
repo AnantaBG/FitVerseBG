@@ -1,5 +1,6 @@
 import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BiLogoGmail } from "react-icons/bi";
+import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsMessenger, BsTelegram, BsTwitter, BsWhatsapp } from "react-icons/bs";
 
 const FooTer = () => {
     return (
@@ -8,49 +9,40 @@ const FooTer = () => {
             <div className="w-full">
                 <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
                 <div>
-                    <Footer.Title title="Company" />
+                    <Footer.Title title="Facebook messenger" />
                     <Footer.LinkGroup col>
-                    <Footer.Link href="#">About</Footer.Link>
-                    <Footer.Link href="#">Careers</Footer.Link>
-                    <Footer.Link href="#">Brand Center</Footer.Link>
-                    <Footer.Link href="#">Blog</Footer.Link>
+                    <Footer.Link className="text-3xl" href="https://www.m.me/AnantaBanik3x/" target="_blank"><BsMessenger></BsMessenger></Footer.Link>
                     </Footer.LinkGroup>
                 </div>
                 <div>
-                    <Footer.Title title="help center" />
+                    <Footer.Title title="Gmail" />
                     <Footer.LinkGroup col>
-                    <Footer.Link href="#">Discord Server</Footer.Link>
-                    <Footer.Link href="#">Twitter</Footer.Link>
-                    <Footer.Link href="#">Facebook</Footer.Link>
-                    <Footer.Link href="#">Contact Us</Footer.Link>
+                    <Footer.Link className="text-3xl" href="https://mail.google.com/mail/?view=cm&fs=1&to=anantabanikofficial@gmail.com" target="_blank"><BiLogoGmail></BiLogoGmail></Footer.Link>
+                    
                     </Footer.LinkGroup>
                 </div>
                 <div>
-                    <Footer.Title title="legal" />
+                    <Footer.Title title="whatsapp messenger" />
                     <Footer.LinkGroup col>
-                    <Footer.Link href="#">Privacy Policy</Footer.Link>
-                    <Footer.Link href="#">Licensing</Footer.Link>
-                    <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                    <Footer.Link className="text-3xl"  href="https://wa.me/01622731790" target="_blank"><BsWhatsapp></BsWhatsapp></Footer.Link>
+                    
                     </Footer.LinkGroup>
                 </div>
                 <div>
-                    <Footer.Title title="download" />
+                    <Footer.Title title="telegram" />
                     <Footer.LinkGroup col>
-                    <Footer.Link href="#">iOS</Footer.Link>
-                    <Footer.Link href="#">Android</Footer.Link>
-                    <Footer.Link href="#">Windows</Footer.Link>
-                    <Footer.Link href="#">MacOS</Footer.Link>
+                    <Footer.Link className="text-3xl"  href="https://t.me/@anantaj39" target="_blank"><BsTelegram/></Footer.Link>
+                    
                     </Footer.LinkGroup>
                 </div>
                 </div>
                 <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-                <Footer.Copyright href="#" by="FitVerse™ All Rights Reserved" year={new Date().getFullYear()} />
+                <Footer.Copyright target="_blank"  href="https://ananta-banik.web.app/" by="FitVerse™ All Rights Reserved" year={new Date().getFullYear()} />
                 <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                    <Footer.Icon href="#" icon={BsFacebook} />
-                    <Footer.Icon href="#" icon={BsInstagram} />
-                    <Footer.Icon href="#" icon={BsTwitter} />
-                    <Footer.Icon href="#" icon={BsGithub} />
-                    <Footer.Icon href="#" icon={BsDribbble} />
+                    <Footer.Icon target="_blank" href="https://www.facebook.com/AnantaBanik3x/" icon={BsFacebook} />
+                    <Footer.Icon target="_blank" href="https://www.linkedin.com/in/anchba" icon={BsLinkedin} />
+                    <Footer.Icon target="_blank" href="https://x.com/AnantaBanik3" icon={BsTwitter} />
+                    <Footer.Icon target="_blank" href="https://github.com/AnantaBG" icon={BsGithub} />
                 </div>
                 </div>
             </div>
