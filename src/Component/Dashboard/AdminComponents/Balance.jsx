@@ -35,11 +35,11 @@ const Balance = () => {
         fetchData();
       }, []);
     return (
-        <div className="grid">
+        <div className="grid justify-center mx-auto w-11/12 mt-20 ">
     <Helmet>
             <title>Dashboard || Balane</title>
             </Helmet>
-    <Card href="#" className="max-w-sm">
+    <Card href="#" className="">
       <h5 className="text-2xl font-extrabold text-center tracking-tight font-mono text-gray-900 dark:text-white">
         Total Balance
       </h5>

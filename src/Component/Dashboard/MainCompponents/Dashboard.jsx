@@ -30,8 +30,8 @@ else{
           <Helmet>
                 <title>Dashboard</title>
       </Helmet>
-        <div className="">
-    <Sidebar aria-label="Sidebar with content separator example" className="min-h-screen bg-blue-400 max-w-40 sm:max-w-60 md:max-w-64">
+        <div className=" ">
+    <Sidebar aria-label="Sidebar with content separator example" className="min-h-screen max-w-40  sm:max-w-60 md:max-w-64">
       <Sidebar.Items>
         <Sidebar.ItemGroup>
           {

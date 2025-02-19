@@ -92,7 +92,7 @@ const AppliedTrainer = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mt-20 justify-center mx-auto">
         <Helmet>
             <title>Dashboard || Applied Trainer Management</title>
             </Helmet>

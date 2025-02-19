@@ -19,11 +19,12 @@ const NewsletterSubs = () => {
       }, []);
 
     return (
-        <div className="overflow-x-auto mt-3">
-            <Helmet>
+      <section className="mt-20">
+        <Helmet>
             <title>Dashboard || Newsletters</title>
             </Helmet>
-            <h2 className="text-2xl flex justify-center font-bold mb-4 font-mono">Newsetller Subscribers</h2>
+            <h2 className=" md:text-3xl lg:text-4xl text-2xl flex justify-center font-bold mb-4 font-mono">Newsetller Subscribers</h2>
+        <div className="max-h-screen overflow-scroll scroll-smooth sm:max-w-sm md:max-w-md mx-auto lg:max-w-xl max-w-xs mt-10">
             {data?.map((feat) => (
             <Table className="mb-4 bg-blue-100" key={feat._id} hoverable>
                 <Table.Body className="divide-y">
@@ -36,6 +37,8 @@ const NewsletterSubs = () => {
             </Table>
             ))}
         </div>
+      </section>
+
     );
 };
 

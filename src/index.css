@@ -14,3 +14,6 @@ nav a.active{
 nav a:hover{
   color: rgba(243, 6, 6, 0.6);
 }
+.side {
+  background-color: aqua;
+}

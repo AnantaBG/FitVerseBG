@@ -40,13 +40,15 @@ const AllTrainerAd = () => {
         }
       };
     return (
-        <div className="overflow-x-auto mt-3">
-            <Helmet>
+      <section>
+        <Helmet>
             <title>Dashboard || All Trainer Management</title>
             </Helmet>
-                    <h2 className="text-3xl flex justify-center font-bold mb-4 font-mono">All trainers</h2>
+                    <h2 className="text-3xl flex justify-center font-bold mb-4 font-mono mt-20">All trainers</h2>
+        <div className=" max-h-screen overflow-scroll scroll-smooth sm:max-w-sm md:max-w-md mx-auto lg:max-w-xl max-w-xs mt-10">
+            
                     {data?.map((feat) => (
-                    <Table className="mb-4 min-w-96 bg-blue-100" key={feat._id} hoverable>
+                    <Table className="mb-4 min-w-96 overflow-auto bg-blue-100" key={feat._id} hoverable>
                         <Table.Body className="divide-y">
                         <Table.Row className="bg-teal-100 dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
@@ -73,6 +75,8 @@ const AllTrainerAd = () => {
                     </Table>
                     ))}
         </div>
+      </section>
+
     );
 };
 

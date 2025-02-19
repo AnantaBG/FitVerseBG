@@ -39,7 +39,7 @@ const AddClass = () => {
               })
             };
     return (
-        <div className="my-0 flex mx-auto max-h-[520px]">
+        <div className=" justify-center mx-auto w-11/12 mt-20 flex ">
             <Helmet>
             <title>Dashboard || Add Class</title>
             </Helmet>
